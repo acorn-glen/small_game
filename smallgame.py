@@ -16,7 +16,7 @@ while x < 3:
     print ".",
     x = x + 1
 
-time.sleep(0.5)
+time.sleep(0.6)
 
 print
 print "Ahh! You're name is Eugene! Wonderful!"
