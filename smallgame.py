@@ -4,7 +4,7 @@ print "\tWELCOME TO DUNGEON KNOCK OFF!"
 
 import time
 time.sleep(1)
-'''
+
 user_name = raw_input("Enter your name: ")
 
 time.sleep(1)
@@ -65,7 +65,7 @@ print """DISCLAIMER: If you have epilepsy, you should be fine playing this game,
 print "______________________________________________________________________________"
 
 time.sleep(6)
-'''
+
 print "\nTHE STORY:\n\n"
 print "You are on a journey."
 print
