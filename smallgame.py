@@ -16,7 +16,11 @@ while x < 3:
     print ".",
     x = x + 1
 
+<<<<<<< HEAD
 time.sleep(0.4)
+=======
+time.sleep(0.6)
+>>>>>>> a9a710cebbbe1b1fa1a14267ff76642f5d9cfbfb
 
 print
 print "Ahh! You're name is Eugene! Wonderful!"
