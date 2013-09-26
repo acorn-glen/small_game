@@ -1,6 +1,5 @@
 print "WELCOME TO DUNGEON KNOCK OFF!"
 import time
-
 time.sleep(1)
 
 user_name = raw_input("Enter your name: ")
