@@ -1,3 +1,5 @@
+#Characters: Dungeon Masta, [player = Eugene].
+
 print "WELCOME TO DUNGEON KNOCK OFF!"
 import time
 time.sleep(1)
