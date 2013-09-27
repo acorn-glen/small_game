@@ -28,11 +28,11 @@ print "Would you like to look around?"
 print "Y/N:",
 next()
 wait()
-print "you are in a room"
-print "To the front of you is a toilet"
-print "To your right is a small pinhole of a window-"
-print "-you can berely see what looks like a fence"
-print "To your left are Iron bars blocking a hallway",
+print "you are in a room", next()
+print "To the front of you is a toilet", next()
+print "To your right is a small pinhole of a window-", next()
+print "-you can barely see what looks like a fence", next()
+print "To your left are iron bars blocking a hallway", next()
 next()
 print "You are in a jail cell",
 next()
@@ -52,32 +52,34 @@ print "-crack one of your front teeth on a key which was inside",
 next()
 print "This is a bittersweet moment now since your smile is ruined for life",
 next()
-print "'sucks even more too since you have such great dental hygene",
+print "It sucks even more too since you have such great dental hygene",
 next()
 print "Terrific in fact",
 next()
 print "Your teeth were so white",
 next()
-print "But that doesn't matter now, they're ruined",
+print "But that doesn't matter now. They're ruined.",
 next()
 wait()
-print "You pick up the key which has ruined your teeth,-"
+print "You pick up the key which ruined your teeth,-"
 print "-it is covored in roastbeef sandwich",
 next()
 print "Would you like to try the key in the cell door?"
-print "Y/N:",
+print "Y/N: ",
 next()
 wait()
-print "it fits!",
+print "It fits!",
 next()
 print "Would you like to escape jail?"
-print "Y/N:",
+print "Y/N: ",
 next()
 wait()
 print "You slide open the door and start down the hall",
 next()
 print "You greet the Warden as you walk out of the jail",
 next()
-print "'Hi' he says back to you"
+print "'Hi' he says back to you."
 next()
 wait()
+print
+print "'Wait a second...'"

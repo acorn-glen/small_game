@@ -173,7 +173,7 @@ if choice_fork == "up":
     else:
         print "You choose not to look at your surroundings.", raw_input()
         print
-        print "Because you're and idiot", raw_input()
+        print "Because you're an idiot", raw_input()
         print
         print "You're probably fat too."
                 
