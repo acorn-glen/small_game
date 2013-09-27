@@ -8,8 +8,8 @@ time.sleep(2)
 user_name = raw_input("Enter your name: ")
 
 time.sleep(2)
-'''
-print "\tSo... you're name is {name}?".format(name = user_name)
+
+print "\tSo... your name is {name}?".format(name = user_name)
 
 raw_input("Y/N: ")
 
@@ -88,7 +88,7 @@ raw_input()
 
 print
 print "But the other way continues up the mountain to your one true love's house."
-'''
+
 print "Which way do you go?"
 
 choice_fork = raw_input("'up' or 'through': ")
