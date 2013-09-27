@@ -179,3 +179,5 @@ else:
     time.sleep(2)
     
     print "RRRRRRRRRUUUUUUUUUUUMMMMMMMMMMMBBBBBBBBBBBBLLLLLLLLLLEEEEEEEEEEEE!!!!"
+    
+# Boss fight starts here, and it's NOT in the IF statement. This is the end for ALL the outcomes.
