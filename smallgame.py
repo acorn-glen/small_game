@@ -1,13 +1,13 @@
 #Characters: Dungeon Masta, [player = Eugene]
+import time
 
 print "\tWELCOME TO DUNGEON KNOCK OFF!"
 
-import time
-time.sleep(1)
+time.sleep(2)
 
 user_name = raw_input("Enter your name: ")
 
-time.sleep(1)
+time.sleep(2)
 
 print "\tSo... you're name is {name}?".format(name = user_name)
 
@@ -21,19 +21,18 @@ while x < 3:
 time.sleep(0.4)
 
 print
-print "\tAhh! You're name is Eugene! Wonderful!"
-time.sleep(2)
-
+print "\tAhh! You're name is Eugene! Wonderful!",
+raw_input()
 print
-print "\tWell, Eugene, you are here to test your wits!"
-time.sleep(3)
+print "\tWell, Eugene, you are here to test your wits!",
+raw_input
 
-print"\tTo challenge your brain! To think, not just type nonsense and hope it works!"
-time.sleep(2)
+print"\tTo challenge your brain! To think, not just type nonsense and hope it works!",
+raw_input()
 
 print
 print "\tI hope you are ready for this ordeal?"
-time.sleep(2)
+
 
 raw_input("Y/N: ")
 
@@ -70,68 +69,71 @@ print "\nTHE STORY:\n\n"
 print "You are on a journey."
 print
 
-time.sleep(1)
+raw_input()
 
 print
 print "You are making your way to your one true love's abode."
 
-time.sleep(1)
+raw_input()
 
 print
 print "You come to a fork in the road."
 
-time.sleep(2)
+raw_input()
 
 print
 print "You see that if you go one way, you will enter a dark entrance in the side of a mountain."
 
-time.sleep(1)
+raw_input()
 
 print
 print "But the other way continues up the mountain to your one true love's house."
 
 print "Which way do you go?"
 
-choice_fork = raw_input("'UP' or 'THROUGH': ")
+choice_fork = raw_input("'up' or 'through': ")
 
-if choice_fork == "UP":
+if choice_fork == "up":
     # This marks a split in the paths. This needs to be directed towards the code AFTER the IF statement.
     print
     print "You went up the mountain."
-elif choice_fork == "THROUGH":
+    print
+    
+    
+elif choice_fork == "through":
     print
     print "You went into the mountain."
 else:
     print
     print "You typed a command in wrong. Congratulations. Now the program's broken." 
     
-    time.sleep(2)
+    raw_input()
     
     print
     print "Let's just keep going, shall we?"
     
-    time.sleep(2)
+    raw_input()
     
     print
     print "You end up going into the mountain. Easy passage through? Nope. Chuck Testa."
     
-    time.sleep(2)
+    raw_input()
     
     print
     print "You look around you."
-    raw_input("Type 'Look around': ")
+    raw_input("Type 'look around': ")
     
-    time.sleep(2)
+    time.sleep(1)
     
     print
     print "You see something glitter in the wall."
 
-    time.sleep(2)
+    time.sleep(1)
 
     print
     print "You are curious. You should totally walk over there."
 
-    total_control = raw_input("But do whatever you want. You're the one playing this game.\nNow, I give you full reign over the commands. Type \"HELP\" for a list of commands\n>")
+    total_control = raw_input("But do whatever you want. You're the one playing this game.\nNow, I give you full reign over the commands. Type \"HELP\" for a list of commands.\n>")
     
     x = 0
     
@@ -146,22 +148,22 @@ else:
         print
         print "Haha, screw you!"
         
-        time.sleep(1)
+        raw_input()
         
     elif total_control == "no":
         print
         print "yes"
         
-        time.sleep(1)
+        raw_input()
     
     print
     print "You go walk to the glittering object."
     
-    time.sleep(2)
+    raw_input()
     
     print
     print "It is so shiny. You want to touch it."
-    object_touch = raw_input("To touch it, type 'TOUCH': ")    
+    object_touch = raw_input("To touch it, type 'touch': ")    
     
     time.sleep(1)
     
