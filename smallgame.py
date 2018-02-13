@@ -143,7 +143,7 @@ if choice_fork == "up":
                 print
                 print "Bet you feel pretty smart NOW, eh {name}?".format(name = user_name), raw_input()
                 print
-                print "The goblin shakes you down steals, your money, and runs off, howling with laughter.", raw_input()
+                print "The goblin shakes you down, steals your money, and runs off howling with laughter.", raw_input()
                 print
                 print "You look like a complete idiot.", raw_input()
                 print
