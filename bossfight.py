@@ -56,6 +56,7 @@ raw_input()
 print "It's a one hit KO!",
 time.sleep(1)
 raw_input()
+print "-------------- THE END --------------"
 
 #optional faintedness
 
